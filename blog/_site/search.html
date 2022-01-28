@@ -11,7 +11,7 @@
 
   <title>
     
-      About &middot; Blog
+      Google Search &middot; Blog
     
   </title>
 
@@ -35,7 +35,7 @@
 </head>
 
 
-  <body class="page">
+  <body class="search">
 
     <div id="sidebar">
   <header>
@@ -70,9 +70,6 @@
 
   
     
-      <a class="page-link  active"
-          href="/about.html">About</a>
-    
   
 
   
@@ -103,13 +100,11 @@
 
   
 
-
   
 
 
   
-    
-  
+
 
   
     
@@ -119,6 +114,13 @@
     
       <a class="category-link "
           href="/category/edge-case.html">Edge Case</a>
+    
+  
+
+  
+    
+      <a class="category-link "
+          href="/category/games.html">Games</a>
     
   
 
@@ -145,6 +147,8 @@
 
   
     
+  
+
   
 
   
@@ -210,24 +214,25 @@
 
     <main class="container">
       <header>
-  
-
-
-  <h1 class="page-title">About</h1>
+  <h1 class="page-title"><label for="search-bar">Google Search</label></h1>
 </header>
 <div class="content">
-  <p class="message">
-  게임과 개발에 대한 이야기
-</p>
+  <form action="https://google.com/search" class="search-form">
+  <div class="search-row">
+    <input id="search-bar" type="search" name="q" />
 
-<p>To make pages show up in the sidebar, add <code class="language-plaintext highlighter-rouge">sidebar_link: true</code> to the front
-matter.</p>
+    
+    
+    
+    
+    
+    <input name="sitesearch" type="hidden"
+           value="localhost:4000/" />
 
+    <input type="submit" value="Search" />
+  </div>
+</form>
 </div>
-
-
-
-
     </main>
 
     <!-- Optional footer content -->
