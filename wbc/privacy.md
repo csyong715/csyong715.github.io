@@ -1,3 +1,7 @@
+---
+title: World Batting Competition Privacy Policy
+---
+
 # Privacy Policy
 
 Last updated: January 19, 2022
@@ -28,7 +32,7 @@ For the purposes of this Privacy Policy:
 
 - __Country__ refers to:  South Korea
 
-- __Device__ means any device that can access the Service such as a computer, a cellphone or a digital tablet.
+- __Device__ means any device that can access the Service such as a computer, a cellphone, a digital tablet, or a vr headset.
 
 
 - __Personal Data__ is any information that relates to an identified or identifiable individual.
